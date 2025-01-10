@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f0f4f8;
+    min-height: 100vh;
+  }
+  
+  .resume {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    min-height: 1400px; /* Further increased height */
+  }
+  
+  .left {
+    background-color: #e9eff4;
+    padding: 50px; /* Increased padding for more space */
+    width: 30%;
+    box-sizing: border-box;
+  }
+  
+  .right {
+    padding: 50px; /* Increased padding for more space */
+    width: 70%;
+    box-sizing: border-box;
+  }
+  
+  .editable {
+    cursor: pointer;
+    border: 1px dashed transparent;
+  }
+  
+  .editable:focus {
+    outline: none;
+    border: 1px dashed #007bff;
+  }
+  
+  h2, h3 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 8px 0;
+  }
+  
+  .section {
+    margin-bottom: 50px; /* Increased margin for more spacing between sections */
+  }
+  
